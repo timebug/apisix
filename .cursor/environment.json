@@ -1,0 +1,11 @@
+{
+  "name": "Apache APISIX",
+  "install": "bash ./.cursor/install.sh",
+  "start": "bash ./.cursor/start.sh",
+  "terminals": [
+    {
+      "name": "apisix-error-log",
+      "command": "tail -F logs/error.log"
+    }
+  ]
+}
